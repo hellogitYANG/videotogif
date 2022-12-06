@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://101.33.203.214:3306/videotogif?characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false
+      username: root
+      password: YKYmysql123
+mybatis:
+  mapper-locations: classpath:mappers/*Mapper.xml
+  type-aliases-package: com.videotogif.demo.beans
+#mybatis-plus:
+#  mapper-locations: classpath:mappers/*Mapper.xml
+server:
+  port: 8080
+

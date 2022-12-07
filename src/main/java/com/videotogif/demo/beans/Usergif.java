@@ -23,6 +23,7 @@ public class Usergif {
     //hot-fix commit2
     //master commit1
     //push test
+    //pull test
     public Usergif(String userid, String giflocal, Date dateTime) {
         this.userid = userid;
         this.giflocal = giflocal;

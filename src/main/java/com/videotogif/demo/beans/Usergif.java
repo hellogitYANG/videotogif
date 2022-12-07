@@ -20,6 +20,7 @@ public class Usergif {
     //second comit
     //third commit
     //hot-fix commit1
+    //hot-fix commit2
     //master commit1
     public Usergif(String userid, String giflocal, Date dateTime) {
         this.userid = userid;
